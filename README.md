@@ -1,2 +1,5 @@
-# hello-risc-v
-Learning RISC-V
+# VSCode Extensions
+
+- zhwu95.riscv
+- hm.riscv-venus
+- 
