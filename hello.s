@@ -1,8 +1,8 @@
     .globl  _start
 
 _start:
-    li      s0, 9        # set iterator max for y
-    li      s1, 9        # set iterator max for x
+    li      s0, 9         # set iterator max for y
+    li      s1, 9         # set iterator max for x
     li      s2, 1         # outer iterator
     li      s4, 8         # num to shift for RGB channels
     li      s5, 0xFF      # value to use for RGB channels
