@@ -25,7 +25,7 @@ inner:
     sll     a2, s5, t1    # set LED matrix color with offset
     li      a1, 0         # reset selected LED register
     slli    a1, s2, 16    # shift by inner iterator
-    or      a1, a1, s7    # combine shifter inner iterator and outer
+    or      a1, a1, s7    # combine shifted inner iterator and outer
     ecall                 # set LED
 
     addi    s7, s7, 1     # increment inner loop iterator
